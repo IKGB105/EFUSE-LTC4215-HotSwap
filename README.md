@@ -23,17 +23,13 @@ limiting, and electronic circuit breaking).
 > `VRM_2PHASE_LTC1929`). The schematic and PCB are complete and ERC/DRC-clean but have not been sent to
 > fabrication.
 
-<!--
-PENDING: figure table (KiCad schematic, PCB 3D render) — export from KiCad and drop into
-docs/figures/, then uncomment:
-
 <table>
 <tr>
 <td><img src="docs/figures/schematic.png" width="280" alt="KiCad schematic"><br><sub>KiCad — schematic</sub></td>
 <td><img src="docs/figures/pcb_3d.png" width="280" alt="KiCad PCB 3D render"><br><sub>KiCad — PCB 3D render</sub></td>
+<td><img src="docs/figures/fem_15A_closeup_R5_Q1.png" width="280" alt="COMSOL thermal simulation result"><br><sub>COMSOL — thermal result (12 V, 15 A, R5/Q1 close-up)</sub></td>
 </tr>
 </table>
--->
 
 ## Key results (simulated, verified from the LTspice `.raw` file)
 
@@ -110,8 +106,6 @@ the thermal one), not neglected — this is what surfaced the 1.6 W of copper $I
 hand estimate (≈0.9 W) missed by almost 2×. The whole model is built from a script
 ([`fem/codigo/termico_efuse.py`](fem/codigo/termico_efuse.py)) that reads vias directly from the
 `.kicad_pcb`, so it regenerates if the board changes.
-
-<img src="docs/figures/fem_15A_closeup_R5_Q1.png" width="420" alt="COMSOL thermal result, close-up of R5 and Q1"><br><sub>COMSOL — R5/Q1 close-up at 12V/15A, convection only, with thermal vias</sub>
 
 **Key findings:**
 - The sense resistor (R5), not the MOSFET, is the hottest part — same pattern as the LM2596 project, where
