@@ -27,7 +27,7 @@ limiting, and electronic circuit breaking).
 <tr>
 <td><img src="docs/figures/schematic.png" width="280" alt="KiCad schematic"><br><sub>KiCad — schematic</sub></td>
 <td><img src="docs/figures/pcb_3d.png" width="280" alt="KiCad PCB 3D render"><br><sub>KiCad — PCB 3D render</sub></td>
-<td><img src="docs/figures/fem_15A_closeup_R5_Q1.png" width="280" alt="COMSOL thermal simulation result"><br><sub>COMSOL — thermal result (12 V, 15 A, R5/Q1 close-up)</sub></td>
+<td><img src="docs/figures/fem_15A_isometric.png" width="280" alt="COMSOL thermal simulation result"><br><sub>COMSOL — thermal result (12 V, 15 A, R5/Q1 close-up)</sub></td>
 </tr>
 </table>
 
