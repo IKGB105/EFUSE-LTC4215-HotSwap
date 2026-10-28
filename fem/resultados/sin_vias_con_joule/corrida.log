@@ -1,0 +1,32 @@
+Dominios: 78
+Dominios por material: {'mat_fr4': 1, 'mat_gen': 18, 'mat_via': 16, 'mat_emc': 4, 'mat_cu': 30, 'mat_sold': 8, 'mat_r5': 1}
+  sel_R5: [57]
+  sel_qQ1: [930, 938, 981, 1029, 1071, 1113, 1150]
+  sel_qU1: [359]
+  gnd_R5pad2: caras [808]
+  gnd_Q1d: caras [924]
+  gnd_Q1s: caras [951, 1009, 1051]
+  gnd_via: caras [488]
+Malla: 276922 elementos, calidad min 0.000
+  P_R5: 1.125 W
+  P_Q1: 0.54 W
+  P_U1: 0.036 W
+  P_tot: 1.701 W
+  P cobre F.Cu (I^2R): 1.046 W
+  P cobre B.Cu (I^2R): 0.5566 W
+  T max R5: 178.9 degC
+  T union Q1 (cara pad-cuerpo): 158.7 degC
+  T max Q1: 158.8 degC
+  T max U1: 127.2 degC
+  T max placa: 168 degC
+  Cobre B.Cu: mascara en el centro (debe ser 1): 1 
+  I = 5 A -> [5, '0.125', '0.060', '0.221', '46.7', '44.4', '44.4', '41.9', '45.5']
+  I = 7.5 A -> [7.5, '0.281', '0.135', '0.452', '68.3', '63.2', '63.2', '56.2', '65.6']
+  I = 10 A -> [10, '0.500', '0.240', '0.776', '97.4', '88.4', '88.4', '75.1', '92.5']
+  I = 12.5 A -> [12.5, '0.781', '0.375', '1.192', '133.9', '119.9', '120.0', '98.5', '126.4']
+  I = 15 A -> [15, '1.125', '0.540', '1.701', '178.9', '158.7', '158.8', '127.2', '168.0']
+  ['Rds(on) a 25 degC, solo conveccion (base)', '0.540', '178.9', '158.7', '158.8', '127.2', '168.0']
+  ['Rds(on) x1.5 (caliente), solo conveccion', '0.810', '190.8', '176.1', '176.1', '134.3', '181.8']
+  ['Rds(on) a 25 degC + radiacion (eps 0.9)', '0.540', '141.5', '122.0', '122.1', '91.7', '130.9']
+  ['Rds(on) x1.5 + radiacion', '0.810', '150.0', '136.0', '136.0', '95.9', '141.3']
+Guardado: /home/tostada105/Proyects/Escuela/PCBs/EFUSE_LTC4215/fem/resultados/sin_vias_con_joule/EFUSE_termico_sin_vias.mph

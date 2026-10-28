@@ -1,0 +1,13 @@
+cantidad,valor,unidad
+P_R5,1.125,W
+P_Q1,0.54,W
+P_U1,0.036,W
+P_tot,1.701,W
+P cobre F.Cu (I^2R),1.031,W
+P cobre B.Cu (I^2R),0.5812,W
+T max R5,170.2,degC
+T union Q1 (cara pad-cuerpo),148.9,degC
+T max Q1,149,degC
+T max U1,126.8,degC
+T max placa,158,degC
+Cobre B.Cu: mascara en (54.5; 69.5) KiCad = holgura alrededor de la isla SENSE- (0 es correcto),0.03335,

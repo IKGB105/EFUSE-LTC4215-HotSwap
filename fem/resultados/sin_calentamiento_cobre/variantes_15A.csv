@@ -1,0 +1,5 @@
+variante,P_Q1 [W],T max R5 [degC],T union Q1 (cara pad-cuerpo) [degC],T max Q1 [degC],T max U1 [degC],T max placa [degC]
+"Rds(on) a 25 degC, solo conveccion (base)",0.540,139.1,118.7,118.8,87.1,127.8
+"Rds(on) x1.5 (caliente), solo conveccion",0.810,150.6,135.9,135.9,93.9,141.3
+Rds(on) a 25 degC + radiacion (eps 0.9),0.540,117.3,97.8,97.9,67.8,106.3
+Rds(on) x1.5 + radiacion,0.810,126.0,112.2,112.2,72.3,116.9

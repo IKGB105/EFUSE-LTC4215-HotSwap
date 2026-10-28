@@ -1,0 +1,11 @@
+cantidad,valor,unidad
+P_R5,1.125,W
+P_Q1,0.54,W
+P_U1,0.036,W
+P_tot,1.701,W
+T max R5,139.1,degC
+T union Q1 (cara pad-cuerpo),118.7,degC
+T max Q1,118.8,degC
+T max U1,87.08,degC
+T max placa,127.8,degC
+Cobre B.Cu: mascara en el centro (debe ser 1),1,

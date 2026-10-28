@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EFUSE")(type "KiCad")(uri "${KIPRJMOD}/../libs/EFUSE_LTC4215.kicad_sym")(options "")(descr "LTC4215-1 eFuse project library"))
+)

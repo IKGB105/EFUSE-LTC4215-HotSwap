@@ -1,0 +1,33 @@
+Dominios: 89
+Dominios por material: {'mat_fr4': 1, 'mat_gen': 18, 'mat_via': 27, 'mat_emc': 4, 'mat_cu': 30, 'mat_sold': 8, 'mat_r5': 1}
+  sel_R5: [57]
+  sel_qQ1: [966, 974, 1017, 1077, 1125, 1179, 1216]
+  sel_qU1: [359]
+  gnd_R5pad2: caras [808, 815, 819]
+  gnd_Q1d: caras [960, 1046, 1050, 1100, 1148, 1152]
+  gnd_Q1s: caras [987, 1057, 1105]
+  gnd_via: caras [488]
+Malla: 285659 elementos, calidad min 0.000
+  P_R5: 1.125 W
+  P_Q1: 0.54 W
+  P_U1: 0.036 W
+  P_tot: 1.701 W
+  P cobre F.Cu (I^2R): 1.031 W
+  P cobre B.Cu (I^2R): 0.5812 W
+  T max R5: 170.2 degC
+  T union Q1 (cara pad-cuerpo): 148.9 degC
+  T max Q1: 149 degC
+  T max U1: 126.8 degC
+  T max placa: 158 degC
+  Cobre B.Cu: mascara en el centro (debe ser 1): 0.03335 
+  I = 5 A -> [5, '0.125', '0.060', '0.221', '45.7', '43.2', '43.2', '41.8', '44.3']
+  I = 7.5 A -> [7.5, '0.281', '0.135', '0.452', '66.1', '60.6', '60.6', '56.1', '63.0']
+  I = 10 A -> [10, '0.500', '0.240', '0.776', '93.5', '83.9', '83.9', '74.8', '88.0']
+  I = 12.5 A -> [12.5, '0.781', '0.375', '1.192', '127.9', '113.0', '113.0', '98.2', '119.4']
+  I = 15 A -> [15, '1.125', '0.540', '1.701', '170.2', '148.9', '149.0', '126.8', '158.0']
+  ['Rds(on) a 25 degC, solo conveccion (base)', '0.540', '170.2', '148.9', '149.0', '126.8', '158.0']
+  ['Rds(on) x1.5 (caliente), solo conveccion', '0.810', '180.7', '163.9', '163.9', '133.6', '170.1']
+  ['Rds(on) a 25 degC + radiacion (eps 0.9)', '0.540', '133.3', '112.3', '112.4', '91.3', '121.2']
+  ['Rds(on) x1.5 + radiacion', '0.810', '140.6', '124.1', '124.1', '95.3', '130.1']
+Guardado: /home/tostada105/Proyects/Escuela/PCBs/EFUSE_LTC4215/fem/EFUSE_termico.mph
+(comsol mphserver:1352476): Gtk-WARNING **: 19:24:35.482: Theme parsing error: gtk.css:92:35: The :insensitive pseudo-class is deprecated. Use :disabled instead.

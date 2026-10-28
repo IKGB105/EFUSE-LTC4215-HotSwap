@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EFUSE")(type "KiCad")(uri "${KIPRJMOD}/../libs/EFUSE.pretty")(options "")(descr "LTC4215-1 eFuse project footprints"))
+)

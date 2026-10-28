@@ -1,0 +1,13 @@
+cantidad,valor,unidad
+P_R5,1.125,W
+P_Q1,0.54,W
+P_U1,0.036,W
+P_tot,1.701,W
+P cobre F.Cu (I^2R),1.046,W
+P cobre B.Cu (I^2R),0.5566,W
+T max R5,178.9,degC
+T union Q1 (cara pad-cuerpo),158.7,degC
+T max Q1,158.8,degC
+T max U1,127.2,degC
+T max placa,168,degC
+Cobre B.Cu: mascara en el centro (debe ser 1),1,

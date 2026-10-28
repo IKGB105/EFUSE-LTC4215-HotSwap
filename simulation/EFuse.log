@@ -1,0 +1,23 @@
+LTspice 26.0.2 for Windows
+Circuit: Z:\home\tostada105\Proyects\Escuela\PCBs\EFUSE_LTC4215\simulation\EFuse.net
+Start Time: Mon Oct 26 21:52:59 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+bypass = true
+WARNING: Node n004 is floating.
+
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 1.216 seconds.
+
+Files loaded:
+Z:\home\tostada105\Proyects\Escuela\PCBs\EFUSE_LTC4215\simulation\EFuse.net
+C:\users\tostada105\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\users\tostada105\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\users\tostada105\AppData\Local\LTspice\lib\sub\LTC4215.sub
+
